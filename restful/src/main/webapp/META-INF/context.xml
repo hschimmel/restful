@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+ <Context>
+     <Resource
+      name="jdbc/names"
+      auth="Container"
+      type="javax.sql.DataSource"
+      username="names"
+      password="names"
+      driverClassName="org.postgresql.Driver"
+      url="jdbc:postgresql:names"
+      maxActive="64"
+      maxIdle="8"
+      minIdle="1"
+      removeAbandoned="true"
+      logAbandoned="true"
+      removeAbandonedTimeout="36000" />
+ </Context>
